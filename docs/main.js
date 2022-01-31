@@ -98,7 +98,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 29, vars: 0, consts: [["lang", "en"], ["charset", "UTF-8"], ["name", "viewport", "content", "width=device-width, initial-scale=1.0"], ["http-equiv", "X-UA-Compatible", "content", "ie=edge"], [1, "navbar", "navbar-expand-lg", "navbar-light", "bg-light"], [1, "container-fluid"], ["href", "#", 1, "navbar-brand"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav"], [1, "nav-item"], ["aria-current", "page", "href", "composer-app/composers", 1, "nav-link", "active"], ["href", "composer-app/about", 1, "nav-link"], ["href", "composer-app/contact", 1, "nav-link"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 29, vars: 0, consts: [["lang", "en"], ["charset", "UTF-8"], ["name", "viewport", "content", "width=device-width, initial-scale=1.0"], ["http-equiv", "X-UA-Compatible", "content", "ie=edge"], [1, "navbar", "navbar-expand-lg", "navbar-light", "bg-light"], [1, "container-fluid"], ["href", "#", 1, "navbar-brand"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav"], [1, "nav-item"], ["aria-current", "page", "href", "/composers", 1, "nav-link", "active"], ["href", "/about", 1, "nav-link"], ["href", "/contact", 1, "nav-link"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "html", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "head");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "meta", 1);
@@ -489,10 +489,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: 'composer-app/composers', component: _composer_list_composer_list_component__WEBPACK_IMPORTED_MODULE_1__["ComposerListComponent"] },
-    { path: 'composer-app/contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_2__["ContactComponent"] },
-    { path: 'composer-app/about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"] },
-    { path: 'composer-app/composer-details/:composerId', component: _composer_details_composer_details_component__WEBPACK_IMPORTED_MODULE_4__["ComposerDetailsComponent"] },
+    { path: '/composers', component: _composer_list_composer_list_component__WEBPACK_IMPORTED_MODULE_1__["ComposerListComponent"] },
+    { path: '/contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_2__["ContactComponent"] },
+    { path: '/about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"] },
+    { path: '/composer-details/:composerId', component: _composer_details_composer_details_component__WEBPACK_IMPORTED_MODULE_4__["ComposerDetailsComponent"] },
 ];
 class AppRoutingModule {
 }
