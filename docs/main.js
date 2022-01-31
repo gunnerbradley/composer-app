@@ -489,10 +489,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '/composers', component: _composer_list_composer_list_component__WEBPACK_IMPORTED_MODULE_1__["ComposerListComponent"] },
-    { path: '/contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_2__["ContactComponent"] },
-    { path: '/about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"] },
-    { path: '/composer-details/:composerId', component: _composer_details_composer_details_component__WEBPACK_IMPORTED_MODULE_4__["ComposerDetailsComponent"] },
+    { path: 'composers', component: _composer_list_composer_list_component__WEBPACK_IMPORTED_MODULE_1__["ComposerListComponent"] },
+    { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_2__["ContactComponent"] },
+    { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"] },
+    { path: 'composer-details/:composerId', component: _composer_details_composer_details_component__WEBPACK_IMPORTED_MODULE_4__["ComposerDetailsComponent"] },
 ];
 class AppRoutingModule {
 }
