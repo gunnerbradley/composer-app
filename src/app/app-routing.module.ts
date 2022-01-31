@@ -7,10 +7,10 @@ import { AboutComponent } from './about/about.component';
 import { ComposerDetailsComponent } from './composer-details/composer-details.component';
 
 const routes: Routes = [
-  { path: 'composer-app/composers', component: ComposerListComponent },
-  { path: 'composer-app/contact', component: ContactComponent },
-  { path: 'composer-app/about', component: AboutComponent },
-  { path: 'composer-app/composer-details/:composerId', component: ComposerDetailsComponent },
+  { path: '/composers', component: ComposerListComponent },
+  { path: '/contact', component: ContactComponent },
+  { path: '/about', component: AboutComponent },
+  { path: '/composer-details/:composerId', component: ComposerDetailsComponent },
 ];
 
 @NgModule({
